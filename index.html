@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="theme-color" content="#f7f5ef">
+  <meta name="description" content="BoldMetric helps B2B SaaS companies turn marketing into measurable growth through landing pages, email marketing, lead generation and conversion optimization.">
+
+  <title>BoldMetric — Marketing That Moves Metrics</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- Announcement -->
+  <div class="announcement">
+    <p>Built for ambitious SaaS teams. Designed for measurable growth.</p>
+    <a href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+  </div>
+
+  <!-- Navigation -->
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+
+      <a href="#home" class="logo" aria-label="BoldMetric home">
+        <span class="logo-symbol">B<span>.</span></span>
+        <span>boldmetric</span>
+      </a>
+
+      <button class="menu-toggle"
+              aria-label="Open navigation menu"
+              aria-expanded="false"
+              aria-controls="nav-links">
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#services">Services</a>
+        <a href="#results">Our approach</a>
+        <a href="#work">Case studies</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQs</a>
+        <a href="#contact" class="nav-cta">Let's talk <span aria-hidden="true">↗</span></a>
+      </div>
+
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero section-padding" id="home">
+      <div class="container hero-grid">
+
+        <div class="hero-copy reveal">
+          <div class="eyebrow">
+            <span class="status-dot"></span>
+            B2B SAAS GROWTH PARTNER
+          </div>
+
+          <h1>
+            Good marketing.<br>
+            <span class="headline-outline">Better</span>
+            <span class="headline-accent">metrics.</span>
+          </h1>
+
+          <p class="hero-description">
+            We help ambitious SaaS companies turn attention into
+            qualified leads, stronger conversions and sustainable growth.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-dark">
+              Let's build your growth <span aria-hidden="true">↗</span>
+            </a>
+            <a href="#work" class="text-link">
+              Explore our work <span aria-hidden="true">↓</span>
+            </a>
+          </div>
+
+          <div class="hero-note">
+            <span class="note-line"></span>
+            Strategy meets execution. Every detail has a purpose.
+          </div>
+        </div>
+
+        <!-- Decorative dashboard visual -->
+        <div class="hero-visual reveal" aria-label="Illustrative marketing analytics dashboard">
+
+          <div class="visual-topbar">
+            <div class="window-dots">
+              <span></span><span></span><span></span>
+            </div>
+            <span class="dashboard-label">GROWTH OVERVIEW</span>
+            <span class="live-badge"><span></span> LIVE UI DEMO</span>
+          </div>
+
+          <div class="dashboard-content">
+
+            <div class="dashboard-heading">
+              <div>
+                <p class="small-label">YOUR MARKETING, REIMAGINED</p>
+                <h3>Growth snapshot<span>.</span></h3>
+              </div>
+              <div class="dashboard-icon">↗</div>
+            </div>
+
+            <div class="metric-grid">
+              <div class="metric-card">
+                <span>Pipeline health</span>
+                <strong>Strong<span class="metric-up"> ↗</span></strong>
+                <div class="metric-bar"><span style="width:78%"></span></div>
+              </div>
+
+              <div class="metric-card metric-orange">
+                <span>Campaign status</span>
+                <strong>Optimizing</strong>
+                <div class="metric-bar"><span style="width:65%"></span></div>
+              </div>
+            </div>
+
+            <div class="chart-card">
+              <div class="chart-heading">
+                <div>
+                  <span>Growth trajectory</span>
+                  <p>Illustrative visualization</p>
+                </div>
+                <span class="chart-period">OVERVIEW</span>
+              </div>
+
+              <div class="chart-wrap">
+                <div class="chart-y-labels" aria-hidden="true">
+                  <span>High</span>
+                  <span>Mid</span>
+                  <span>Low</span>
+                </div>
+
+                <svg viewBox="0 0 360 145"
+                     class="growth-chart"
+                     role="img"
+                     aria-label="Illustrative upward-trending marketing performance chart">
+
+                  <defs>
+                    <linearGradient id="chartFill" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="0%" stop-color="#ff6338" stop-opacity=".3"/>
+                      <stop offset="100%" stop-color="#ff6338" stop-opacity="0"/>
+                    </linearGradient>
+                  </defs>
+
+                  <g class="chart-grid-lines">
+                    <line x1="0" y1="25" x2="360" y2="25"/>
+                    <line x1="0" y1="65" x2="360" y2="65"/>
+                    <line x1="0" y1="105" x2="360" y2="105"/>
+                  </g>
+
+                  <path d="M0 120 C30 112 42 92 72 99 S115 72 145 81 S190 48 218 61 S268 33 295 43 S334 17 360 10 L360 145 L0 145 Z"
+                        fill="url(#chartFill)"/>
+
+                  <path class="chart-line"
+                        d="M0 120 C30 112 42 92 72 99 S115 72 145 81 S190 48 218 61 S268 33 295 43 S334 17 360 10"/>
+
+                  <circle cx="295" cy="43" r="4" class="chart-point"/>
+                </svg>
+              </div>
+
+              <div class="chart-bottom">
+                <span>STRATEGY</span>
+                <span>EXECUTION</span>
+                <span>OPTIMIZATION</span>
+              </div>
+            </div>
+
+            <div class="dashboard-footer">
+              <span><i></i> Strategy-led marketing</span>
+              <span>BUILT FOR GROWTH ↗</span>
+            </div>
+
+          </div>
+
+          <div class="floating-note">
+            <span class="floating-icon">✳</span>
+            <div>
+              <strong>Less guesswork.</strong>
+              <span>More intentional growth.</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="hero-bottom container">
+        <span>WHAT WE HELP YOU DO</span>
+        <div class="hero-bottom-list">
+          <span>Attract better leads</span>
+          <span>Convert more visitors</span>
+          <span>Build smarter campaigns</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services section-padding" id="services">
+      <div class="container">
+
+        <div class="section-heading reveal">
+          <div>
+            <span class="eyebrow">01 / WHAT WE DO</span>
+            <h2>Small details.<br><span>Big impact.</span></h2>
+          </div>
+
+          <p>
+            SaaS marketing should do more than look good.
+            Every touchpoint should help move the right people
+            closer to becoming customers.
+          </p>
+        </div>
+
+        <div class="services-grid">
+
+          <article class="service-card reveal">
+            <div class="service-top">
+              <span class="service-number">01</span>
+              <span class="service-icon" aria-hidden="true">↗</span>
+            </div>
+
+            <h3>Landing Pages<br>That Convert</h3>
+
+            <p>
+              Clear messaging, thoughtful design and persuasive
+              copy that turn relevant traffic into meaningful action.
+            </p>
+
+            <ul>
+              <li>Landing page strategy</li>
+              <li>Conversion-focused copy</li>
+              <li>UX and CTA optimization</li>
+            </ul>
+
+            <a href="#contact" class="card-link">Explore this service ↗</a>
+          </article>
+
+          <article class="service-card service-card-dark reveal">
+            <div class="service-top">
+              <span class="service-number">02</span>
+              <span class="service-icon" aria-hidden="true">✳</span>
+            </div>
+
+            <h3>Email Marketing<br>That Connects</h3>
+
+            <p>
+              Thoughtful email journeys that nurture leads,
+              educate prospects and keep your product relevant.
+            </p>
+
+            <ul>
+              <li>Welcome sequences</li>
+              <li>Lead nurturing campaigns</li>
+              <li>Lifecycle email strategy</li>
+            </ul>
+
+            <a href="#contact" class="card-link">Explore this service ↗</a>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-top">
+              <span class="service-number">03</span>
+              <span class="service-icon" aria-hidden="true">◎</span>
+            </div>
+
+            <h3>Lead Generation<br>With Intent</h3>
+
+            <p>
+              Build a more focused acquisition journey that attracts
+              relevant prospects instead of collecting empty clicks.
+            </p>
+
+            <ul>
+              <li>Lead magnets and funnels</li>
+              <li>Campaign messaging</li>
+              <li>Lead capture strategy</li>
+            </ul>
+
+            <a href="#contact" class="card-link">Explore this service ↗</a>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-top">
+              <span class="service-number">04</span>
+              <span class="service-icon" aria-hidden="true">⌁</span>
+            </div>
+
+            <h3>Conversion<br>Optimization</h3>
+
+            <p>
+              Identify friction, understand user behavior and make
+              informed improvements across your marketing funnel.
+            </p>
+
+            <ul>
+              <li>Conversion audits</li>
+              <li>Funnel analysis</li>
+              <li>Experiment planning</li>
+            </ul>
+
+            <a href="#contact" class="card-link">Explore this service ↗</a>
+          </article>
+
+        </div>
+
+        <div class="services-bottom reveal">
+          <span>Not sure what you need?</span>
+          <a href="#contact" class="text-link">Let's figure it out together ↗</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Approach / Results -->
+    <section class="results section-padding" id="results">
+      <div class="container results-grid">
+
+        <div class="results-copy reveal">
+          <span class="eyebrow">02 / OUR APPROACH</span>
+
+          <h2>Make every<br>marketing move<br><span>count.</span></h2>
+
+          <p>
+            More activity doesn't automatically mean more growth.
+            We focus on the message, the experience and the journey
+            between first click and meaningful action.
+          </p>
+
+          <a href="#contact" class="btn btn-orange">
+            Find your next move <span aria-hidden="true">↗</span>
+          </a>
+
+          <p class="disclaimer">
+            This is a conceptual portfolio project. Visuals are illustrative
+            and do not represent actual client results.
+          </p>
+        </div>
+
+        <div class="results-panel reveal">
+
+          <div class="results-panel-heading">
+            <div>
+              <span class="small-label">THE BOLDMETRIC METHOD</span>
+              <h3>Growth, by design<span>.</span></h3>
+            </div>
+            <span class="panel-mark">B.</span>
+          </div>
+
+          <div class="result-row">
+            <div class="result-row-icon">01</div>
+            <div class="result-row-content">
+              <h4>Understand the audience</h4>
+              <p>Learn what your buyers need, value and struggle with.</p>
+            </div>
+            <span class="result-arrow">↗</span>
+          </div>
+
+          <div class="result-row">
+            <div class="result-row-icon">02</div>
+            <div class="result-row-content">
+              <h4>Sharpen the message</h4>
+              <p>Make your value proposition clear and compelling.</p>
+            </div>
+            <span class="result-arrow">↗</span>
+          </div>
+
+          <div class="result-row">
+            <div class="result-row-icon">03</div>
+            <div class="result-row-content">
+              <h4>Build the experience</h4>
+              <p>Connect landing pages, emails and lead capture.</p>
+            </div>
+            <span class="result-arrow">↗</span>
+          </div>
+
+          <div class="result-row">
+            <div class="result-row-icon">04</div>
+            <div class="result-row-content">
+              <h4>Measure and improve</h4>
+              <p>Use meaningful data to guide the next iteration.</p>
+            </div>
+            <span class="result-arrow">↗</span>
+          </div>
+
+          <div class="method-footer">
+            <span>THINK CLEARLY.</span>
+            <span>BUILD INTENTIONALLY.</span>
+            <span>IMPROVE CONTINUOUSLY.</span>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Case Studies -->
+    <section class="work section-padding" id="work">
+      <div class="container">
+
+        <div class="section-heading reveal">
+          <div>
+            <span class="eyebrow">03 / SELECTED CONCEPTS</span>
+            <h2>Ideas built<br>for <span>impact.</span></h2>
+          </div>
+
+          <p>
+            Explore conceptual SaaS marketing projects that show
+            how positioning, messaging and user experience can work together.
+          </p>
+        </div>
+
+        <div class="work-grid">
+
+          <article class="work-card reveal">
+            <div class="work-art work-art-one">
+              <div class="art-browser">
+                <div class="art-browser-top">
+                  <span>B.</span>
+                  <span>FINANCE SOFTWARE / CONCEPT</span>
+                </div>
+
+                <div class="art-finance-content">
+                  <span class="art-label">FINANCE, WITHOUT THE FRICTION</span>
+                  <h3>Clarity for<br>every decision.</h3>
+                  <div class="art-button">Explore the concept ↗</div>
+                  <div class="art-finance-dashboard">
+                    <div><span>Cash flow</span><strong>Overview</strong></div>
+                    <div class="art-mini-chart">
+                      <i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <span class="art-sticker">01</span>
+            </div>
+
+            <div class="work-info">
+              <div>
+                <span class="work-category">FINTECH / LANDING PAGE</span>
+                <h3>FinPilot</h3>
+              </div>
+              <span class="work-arrow" aria-hidden="true">↗</span>
+            </div>
+
+            <p>
+              A conceptual finance SaaS experience focused on clear
+              messaging, product presentation and a direct user journey.
+            </p>
+
+            <span class="concept-label">CONCEPT PROJECT · NOT A CLIENT CASE STUDY</span>
+          </article>
+
+          <article class="work-card reveal">
+            <div class="work-art work-art-two">
+              <div class="art-email-window">
+                <div class="art-email-top">
+                  <span>CAMPAIGN STUDIO</span>
+                  <span>CONCEPT 02</span>
+                </div>
+
+                <div class="email-preview">
+                  <span class="email-tag">THE SAAS GROWTH LETTER</span>
+                  <h3>Less noise.<br><span>More signal.</span></h3>
+                  <p>Ideas worth opening. Insights worth acting on.</p>
+                  <div class="email-input-preview">
+                    <span>Your work email</span>
+                    <b>Subscribe ↗</b>
+                  </div>
+                  <div class="email-decoration">✳</div>
+                </div>
+              </div>
+              <span class="art-sticker">02</span>
+            </div>
+
+            <div class="work-info">
+              <div>
+                <span class="work-category">B2B SAAS / EMAIL MARKETING</span>
+                <h3>SignalStack</h3>
+              </div>
+              <span class="work-arrow" aria-hidden="true">↗</span>
+            </div>
+
+            <p>
+              A conceptual email marketing direction built around
+              audience relevance, clear hierarchy and focused messaging.
+            </p>
+
+            <span class="concept-label">CONCEPT PROJECT · NOT A CLIENT CASE STUDY</span>
+          </article>
+
+        </div>
+
+        <div class="work-bottom reveal">
+          <span>Good work starts with a clear problem.</span>
+          <a href="#contact" class="text-link">Have a project in mind? ↗</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Why BoldMetric -->
+    <section class="why section-padding">
+      <div class="container">
+
+        <div class="why-heading reveal">
+          <span class="eyebrow">04 / WHY BOLDMETRIC</span>
+          <h2>Less marketing<br><span>theatre.</span> More thinking.</h2>
+          <p>
+            We believe effective marketing comes from clear priorities,
+            useful creative work and a willingness to keep improving.
+          </p>
+        </div>
+
+        <div class="why-grid">
+
+          <article class="why-card reveal">
+            <span class="why-number">01</span>
+            <span class="why-symbol">↗</span>
+            <h3>Clarity over clutter</h3>
+            <p>Clear positioning and messaging help buyers understand why your product matters.</p>
+          </article>
+
+          <article class="why-card reveal">
+            <span class="why-number">02</span>
+            <span class="why-symbol">✳</span>
+            <h3>Strategy with purpose</h3>
+            <p>Every asset has a job. Every campaign starts with a reason to exist.</p>
+          </article>
+
+          <article class="why-card reveal">
+            <span class="why-number">03</span>
+            <span class="why-symbol">◎</span>
+            <h3>Built to improve</h3>
+            <p>Thoughtful measurement helps teams understand what to keep, change or test.</p>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="pricing section-padding" id="pricing">
+      <div class="container">
+
+        <div class="section-heading reveal">
+          <div>
+            <span class="eyebrow">05 / ENGAGEMENT OPTIONS</span>
+            <h2>Find your<br><span>starting point.</span></h2>
+          </div>
+
+          <p>
+            Choose a starting scope based on your immediate priorities.
+            Every engagement can be tailored to your goals.
+          </p>
+        </div>
+
+        <div class="pricing-toggle-wrap reveal">
+          <span>Engagement type</span>
+
+          <div class="pricing-toggle" role="group" aria-label="Choose pricing engagement type">
+            <button class="pricing-option active"
+                    data-plan="project"
+                    aria-pressed="true">
+              One-time project
+            </button>
+
+            <button class="pricing-option"
+                    data-plan="monthly"
+                    aria-pressed="false">
+              Monthly support
+            </button>
+          </div>
+
+          <p class="pricing-note">Illustrative package structures. Final quotes depend on project scope.</p>
+        </div>
+
+        <div class="pricing-grid">
+
+          <article class="pricing-card reveal">
+            <span class="plan-label">01 / START SMALL</span>
+            <h3>Essentials</h3>
+
+            <p class="plan-description">
+              For teams that need one clear, focused marketing asset.
+            </p>
+
+            <div class="plan-price">
+              <span class="price-value" data-project="Custom quote" data-monthly="Custom quote">Custom quote</span>
+            </div>
+
+            <a href="#contact" class="btn btn-outline plan-cta">Discuss your project ↗</a>
+
+            <div class="plan-divider"></div>
+
+            <span class="included-label">POTENTIAL SCOPE</span>
+
+            <ul class="plan-features">
+              <li>One primary marketing deliverable</li>
+              <li>Messaging and positioning review</li>
+              <li>One focused revision cycle</li>
+              <li>Delivery plan and next steps</li>
+            </ul>
+          </article>
+
+          <article class="pricing-card pricing-card-featured reveal">
+            <div class="popular-tag">MOST FLEXIBLE</div>
+            <span class="plan-label">02 / BUILD MOMENTUM</span>
+            <h3>Growth Partner</h3>
+
+            <p class="plan-description">
+              For teams that need connected marketing execution.
+            </p>
+
+            <div class="plan-price">
+              <span class="price-value" data-project="Custom quote" data-monthly="Custom quote">Custom quote</span>
+            </div>
+
+            <a href="#contact" class="btn btn-orange plan-cta">Let's discuss growth ↗</a>
+
+            <div class="plan-divider"></div>
+
+            <span class="included-label">POTENTIAL SCOPE</span>
+
+            <ul class="plan-features">
+              <li>Landing page and messaging strategy</li>
+              <li>Email marketing support</li>
+              <li>Lead capture journey planning</li>
+              <li>Defined review and optimization cycle</li>
+            </ul>
+          </article>
+
+          <article class="pricing-card reveal">
+            <span class="plan-label">03 / GO FURTHER</span>
+            <h3>Custom Strategy</h3>
+
+            <p class="plan-description">
+              For teams with more complex growth priorities.
+            </p>
+
+            <div class="plan-price">
+              <span class="price-value" data-project="Custom quote" data-monthly="Custom quote">Custom quote</span>
+            </div>
+
+            <a href="#contact" class="btn btn-outline plan-cta">Plan a conversation ↗</a>
+
+            <div class="plan-divider"></div>
+
+            <span class="included-label">POTENTIAL SCOPE</span>
+
+            <ul class="plan-features">
+              <li>Tailored marketing roadmap</li>
+              <li>Multi-channel campaign planning</li>
+              <li>Conversion improvement priorities</li>
+              <li>Scope defined together</li>
+            </ul>
+          </article>
+
+        </div>
+
+        <p class="pricing-disclaimer">
+          No guaranteed outcomes or fixed deliverables are implied.
+          Scope, timelines and fees are agreed upon before work begins.
+        </p>
+
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq section-padding" id="faq">
+      <div class="container faq-grid">
+
+        <div class="faq-intro reveal">
+          <span class="eyebrow">06 / GOOD QUESTIONS</span>
+          <h2>Before we<br><span>get started.</span></h2>
+          <p>
+            A few things worth knowing before we start building
+            something useful together.
+          </p>
+          <a href="#contact" class="text-link">Still have questions? Let's talk ↗</a>
+        </div>
+
+        <div class="faq-list reveal">
+
+          <details class="faq-item">
+            <summary>
+              <span>Who does BoldMetric work with?</span>
+              <span class="faq-plus" aria-hidden="true"></span>
+            </summary>
+            <p>
+              BoldMetric is positioned for B2B SaaS companies that want
+              clearer messaging, stronger marketing assets and a more
+              intentional path from attention to conversion.
+            </p>
+          </details>
+
+          <details class="faq-item">
+            <summary>
+              <span>What services can I start with?</span>
+              <span class="faq-plus" aria-hidden="true"></span>
+            </summary>
+            <p>
+              You can start with a landing page, email marketing project,
+              lead generation initiative or conversion-focused review.
+              The right starting point depends on your immediate needs.
+            </p>
+          </details>
+
+          <details class="faq-item">
+            <summary>
+              <span>How does the project process work?</span>
+              <span class="faq-plus" aria-hidden="true"></span>
+            </summary>
+            <p>
+              We begin by defining the audience, objective, scope and
+              deliverables. Once those are clear, the project moves
+              through strategy, execution, review and agreed delivery.
+            </p>
+          </details>
+
+          <details class="faq-item">
+            <summary>
+              <span>Do you guarantee specific results?</span>
+              <span class="faq-plus" aria-hidden="true"></span>
+            </summary>
+            <p>
+              No. Marketing performance depends on many factors, including
+              the offer, audience, traffic quality and market conditions.
+              The focus is on thoughtful execution and measurable learning,
+              not unsupported promises.
+            </p>
+          </details>
+
+          <details class="faq-item">
+            <summary>
+              <span>Can services be customized?</span>
+              <span class="faq-plus" aria-hidden="true"></span>
+            </summary>
+            <p>
+              Yes. Deliverables, timelines and engagement terms can be
+              discussed and defined around your project requirements
+              before any work begins.
+            </p>
+          </details>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact section-padding" id="contact">
+      <div class="container contact-grid">
+
+        <div class="contact-copy reveal">
+          <span class="eyebrow">07 / YOUR NEXT MOVE</span>
+
+          <h2>Let's make<br>your next move<br><span>count.</span></h2>
+
+          <p>
+            Tell us what you're building, where you're stuck
+            and what you'd like to improve.
+          </p>
+
+          <div class="contact-note">
+            <span class="contact-note-icon">✳</span>
+            <div>
+              <strong>No vague pitches.</strong>
+              <span>Just a focused conversation about your goals.</span>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contact-form">
+
+          <div class="form-heading">
+            <span class="small-label">PROJECT INQUIRY</span>
+            <h3>Tell us a little more<span>.</span></h3>
+            <p>Fields marked * are required.</p>
+          </div>
+
+          <div class="form-row">
+
+            <div class="form-field">
+              <label for="name">Your name *</label>
+              <input type="text"
+                     id="name"
+                     name="name"
+                     placeholder="Jane Smith"
+                     autocomplete="name"
+                     required
+                     minlength="2"
+                     maxlength="100">
+            </div>
+
+            <div class="form-field">
+              <label for="email">Work email *</label>
+              <input type="email"
+                     id="email"
+                     name="email"
+                     placeholder="jane@company.com"
+                     autocomplete="email"
+                     required
+                     maxlength="254">
+            </div>
+
+          </div>
+
+          <div class="form-field">
+            <label for="company">Company / Product</label>
+            <input type="text"
+                   id="company"
+                   name="company"
+                   placeholder="Your SaaS company"
+                   autocomplete="organization"
+                   maxlength="150">
+          </div>
+
+          <div class="form-field">
+            <label for="service">What do you need help with? *</label>
+
+            <select id="service" name="service" required>
+              <option value="" disabled selected>Select a service</option>
+              <option value="Landing page">Landing page</option>
+              <option value="Email marketing">Email marketing</option>
+              <option value="Lead generation">Lead generation</option>
+              <option value="Conversion optimization">Conversion optimization</option>
+              <option value="Marketing strategy">Marketing strategy</option>
+              <option value="Multiple services">Multiple services</option>
+              <option value="Not sure yet">Not sure yet</option>
+            </select>
+          </div>
+
+          <div class="form-field">
+            <label for="budget">Estimated budget</label>
+
+            <select id="budget" name="budget">
+              <option value="">Select a range (optional)</option>
+              <option value="Under $500">Under $500</option>
+              <option value="$500–$1500">$500–$1,500</option>
+              <option value="$1500–$5000">$1,500–$5,000</option>
+              <option value="$5000+">$5,000+</option>
+              <option value="To be discussed">To be discussed</option>
+            </select>
+          </div>
+
+          <div class="form-field">
+            <label for="message">Tell us about your project *</label>
+
+            <textarea id="message"
+                      name="message"
+                      rows="4"
+                      placeholder="What are you building, and what would you like to improve?"
+                      required
+                      minlength="10"
+                      maxlength="3000"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-orange form-submit">
+            Prepare inquiry <span aria-hidden="true">↗</span>
+          </button>
+
+          <p class="form-privacy">
+            Frontend portfolio demo. This form does not transmit or store
+            your information on a server.
+          </p>
+
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+
+        </form>
+
+      </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta">
+      <div class="container final-cta-inner reveal">
+        <span class="eyebrow">GOOD MARKETING STARTS WITH A GOOD QUESTION.</span>
+        <h2>What could you<br><span>do better?</span></h2>
+        <a href="#contact" class="btn btn-dark">
+          Let's find out <span aria-hidden="true">↗</span>
+        </a>
+        <span class="final-decoration" aria-hidden="true">B.</span>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-top">
+
+      <a href="#home" class="logo footer-logo">
+        <span class="logo-symbol">B<span>.</span></span>
+        <span>boldmetric</span>
+      </a>
+
+      <p>
+        Clear thinking.<br>
+        Intentional marketing.<br>
+        Better decisions.
+      </p>
+
+      <div class="footer-links">
+        <a href="#services">Services</a>
+        <a href="#work">Case studies</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+    </div>
+
+    <div class="container footer-bottom">
+      <span>© <span id="current-year"></span> BoldMetric. Concept agency website.</span>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+</body>
+</html>
